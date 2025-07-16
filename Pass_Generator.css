@@ -1,0 +1,83 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Title */
+h1 {
+    color: #0044cc;
+    text-decoration: underline red 3px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Password display container */
+#passContainer {
+    background-color: #00e676;
+    padding: 20px 30px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Error message styling */
+#errormessage {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input & label block */
+input[type="number"],
+input[type="checkbox"] {
+    margin: 10px;
+    
+}
+
+label {
+    font-size: 1em;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+/* Checkbox labels aligned */
+input[type="checkbox"] + label {
+    margin-left: 5px;
+}
+
+/* Input number field */
+#passwordLength {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60px;
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #008ba3;
+}
+button:active{
+    background-color: #006779;
+}

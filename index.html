@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="404-page_not_found.png">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="Pass_Generator.css">
+</head>
+
+<body>
+    
+    <h1>Password Generator</h1>
+    <div id="passContainer">
+        <p>Password: <span id="password"></span> </p>
+    </div>
+
+    <div id="errormessage">
+        
+    </div>
+
+    
+
+    <label for="">Password length:</label>
+    <input type="number" name="" id="passwordLength" value="1" min="1"> <br>
+
+    <input type="checkbox" name="" id="includeLowercaseC">
+    <label for="includeLowercaseC">Inluced lowercase characters</label> <br>
+
+    <input type="checkbox" id="includeUppercaseC">
+    <label for="includeUppercaseC">Inluced Uppercase characters</label> <br>
+
+    <input type="checkbox" id="includeNumberC">
+    <label for="includeNumberC">Inluced Numbers</label> <br>
+
+    <input type="checkbox" id="includeSymbolC">
+    <label for="includeSymbolC">Inluced Symbols</label> <br>
+
+    <button onclick="generatePassword()">Generate password</button><br>
+
+    <script src="Pass_Generator.js"></script>
+</body>
+
+</html>
